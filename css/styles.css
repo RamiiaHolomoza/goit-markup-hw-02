@@ -43,6 +43,7 @@ ul, ol, a {
 /* header */
 
 .logo {
+
 font-family: var(--secondary-font);
 font-weight: 700;
 font-size: 18px;

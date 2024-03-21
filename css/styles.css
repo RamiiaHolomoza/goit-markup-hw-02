@@ -64,6 +64,9 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: var(--navy-blue);}
 
+.header-address{
+font-style: normal
+}
 .address {
 color:#434455;
 line-height: 150%;
@@ -73,11 +76,18 @@ letter-spacing: 0.02em;
 .nav-list:hover  {
     color: var(--ocean);
 }
+
+.nav-list:focus {
+    color: var(--ocean);
+}
 .nav-list:active{
     color: var(--ocean);
    }
 .address:hover {
 color: var(--ocean);
+}
+.address:focus {
+    color: var(--ocean);
 }
 
 /* section hero */

@@ -4,29 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <!-- логотип;
-        <a href="">
-	<img src="" alt="Логотип компанії" />
-	Логотип сайту компанії
-</a> -->
-
       <!-- навігацію;-->
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="#Studio">Studio</a></li>
-          <li><a href="#Portfolio">Portfolio</a></li>
-          <li><a href="#Contacts">Contacts</a></li>
+        <a class="link logo" href="./index.html"
+          ><span class="logo-color">Web</span>Studio</a
+        >
+        <ul class="list">
+          <li><a class="nav-list link" href="#Studio">Studio</a></li>
+          <li><a class="nav-list link" href="#Portfolio">Portfolio</a></li>
+          <li><a class="nav-list link" href="#Contacts">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
+        <ul class="list">
           <li>
             <a
+              class="link address"
               href="mailto:info@devstudio.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -35,6 +45,7 @@
           </li>
           <li>
             <a
+              class="link address"
               href="tel:+110001111111"
               target="_blank"
               rel="noopener noreferrer"
@@ -43,48 +54,45 @@
           </li>
         </ul>
       </address>
-
-      <!-- вступний текст; -->
-      <!-- форму пошуку. -->
     </header>
     <main>
       <!--hero image-->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="section-hero">
+        <h1 class="hero-main-text">Effective Solutions for Your Business</h1>
+        <button type="button" class="hero-btn">Order Service</button>
       </section>
       <!--Section 1-->
-      <section>
-        <h2>About us</h2>
-        <ul>
-          <li>
+      <section class="section-about">
+        <h2 class="visually-hidden">About us</h2>
+        <ul class="list">
+          <li class="list-about">
             <!--Feature 1-->
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="list-about-head">Strategy</h3>
+            <p class="list-about-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="list-about">
             <!--Feature 2-->
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="list-about-head">Punctuality</h3>
+            <p class="list-about-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="list-about">
             <!--Feature 3-->
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="list-about-head">Diligence</h3>
+            <p class="list-about-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="list-about">
             <!--Feature 4-->
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="list-about-head">Technologies</h3>
+            <p class="list-about-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -92,129 +100,141 @@
         </ul>
       </section>
       <!--Section 2-->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+      <section class="section-team">
+        <h2 class="section-team-main">Our Team</h2>
+        <ul class="list">
+          <li class="list-teamcard">
             <!--teamcard1-->
             <img
               src="./images/teamcard1.jpg"
               alt="Mark Guerrero"
               width="264"
               height="260"
+              class="list-teamcard-img"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="list-teamcard-name">Mark Guerrero</h3>
+            <p class="list-teamcard-job">Product Designer</p>
           </li>
-          <li>
+          <li class="list-teamcard">
             <!--teamcard2-->
             <img
               src="./images/teamcard2.jpg"
               alt="Tom Ford"
               width="264"
               height="260"
+              class="list-teamcard-img"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="list-teamcard-name">Tom Ford</h3>
+            <p class="list-teamcard-job">Frontend Developer</p>
           </li>
-          <li>
+          <li class="list-teamcard">
             <!--teamcard3-->
             <img
               src="./images/teamcard3.jpg"
               alt="Camila Garcia"
               width="264"
               height="260"
+              class="list-teamcard-img"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="list-teamcard-name">Camila Garcia</h3>
+            <p class="list-teamcard-job">Marketing</p>
           </li>
-          <li>
+          <li class="list-teamcard">
             <!--teamcard4-->
             <img
               src="./images/teamcard4.jpg"
               alt="Daniel Wilson"
               width="264"
               height="260"
+              class="list-teamcard-img"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="list-teamcard-name">Daniel Wilson</h3>
+            <p class="list-teamcard-job">UI Designer</p>
           </li>
         </ul>
       </section>
       <!--Section 3-->
-      <section>
-        <h2>Our Portfolio</h2>
+      <section class="section-portfolio">
+        <h2 class="section-portfolio-main">Our Portfolio</h2>
         <!--Row 1-->
-        <ul>
-          <li>
+        <ul class="list">
+          <li class="list-projectrard">
             <img
               src="./images/projectcard1.jpg"
               alt="Banking App"
               width="360"
               height="300"
+              class="list-projectrard-img"
             />
-            <h3>Banking App</h3>
-            <p>App</p>
+            <h3 class="list-projectrard-name">Banking App</h3>
+            <p class="list-projectrard-prj">App</p>
           </li>
-          <li>
+          <li class="list-projectrard">
             <img
               src="./images/projectcard2.jpg"
               alt="Cashless Payment"
               width="360"
               height="300"
+              class="list-projectrard-img"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="list-projectrard-name">Cashless Payment</h3>
+            <p class="list-projectrard-prj">Marketing</p>
           </li>
-          <li>
+          <li class="list-projectrard">
             <img
               src="./images/projectcard3.jpg"
               alt="Meditaion App"
               width="360"
               height="300"
+              class="list-projectrard-img"
             />
-            <h3>Meditaion App</h3>
-            <p>App</p>
+            <h3 class="list-projectrard-name">Meditaion App</h3>
+            <p class="list-projectrard-prj">App</p>
           </li>
         </ul>
         <!--Row 2-->
-        <ul>
-          <li>
+        <ul class="list">
+          <li class="list-projectrard">
             <img
               src="./images/projectcard4.jpg"
               alt="Taxi Service"
               width="360"
               height="300"
+              class="list-projectrard-img"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="list-projectrard-name">Taxi Service</h3>
+            <p class="list-projectrard-prj">Marketing</p>
           </li>
-          <li>
+          <li class="list-projectrard">
             <img
               src="./images/projectcard5.jpg"
               alt="Screen Illustrations"
               width="360"
               height="300"
+              class="list-projectrard-img"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="list-projectrard-name">Screen Illustrations</h3>
+            <p class="list-projectrard-prj">Design</p>
           </li>
-          <li>
+          <li class="list-projectrard">
             <img
               src="./images/projectcard6.jpg"
               alt="Online Courses"
               width="360"
               height="300"
+              class="list-projectrard-img"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="list-projectrard-name">Online Courses</h3>
+            <p class="list-projectrard-prj">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a class="link logo-footer" href="./index.html"
+        ><span class="logo-color">Web</span>Studio</a
+      >
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>

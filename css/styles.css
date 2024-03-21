@@ -186,7 +186,9 @@ color: var(--navy-blue);}
 }
 
 /* section 3 */
-.section-portfolio {}
+.section-portfolio {
+    text-transform: capitalize
+}
 
 .section-portfolio-main{
 font-weight: 700;

@@ -38,9 +38,9 @@ ul, ol, a {
     clip-path: inset(50%);
     height: 1px;
     overflow: hidden;
-    position: absolute;
+    /* position: absolute; */
     white-space: nowrap;
-    width: 1px;
+    /* width: 1px; */
 }
 /* header */
 
@@ -65,8 +65,10 @@ letter-spacing: 0.02em;
 color: var(--navy-blue);}
 
 .address {
+color:#434455;
 line-height: 150%;
-letter-spacing: 0.02em;}
+letter-spacing: 0.02em;
+}
 
 .nav-list:hover  {
     color: var(--ocean);
@@ -96,18 +98,21 @@ color: var(--ocean);
     line-height: 150%;
     letter-spacing: 0.04em;
     color: var(--white);
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
     background-color: var(--iris);
     cursor: pointer;
 }
 
 .hero-btn:hover{
-box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+/* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
+    background-color: var(--ocean);
+}
+.hero-btn:focus{
     background-color: var(--ocean);
 }
 
 .hero-btn:active{
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+/* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
     background-color: var(--ocean);
 }
 
@@ -129,7 +134,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     color: var(--navy-blue);
 }
 
-.list-bout-text{
+.list-about-text{
     line-height: 150%;
     letter-spacing: 0.02em;
 }
@@ -149,12 +154,12 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
 }
 .list-teamcard {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    /* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
     background: var(--white);
 }
 
 .list-teamcard-img{
- box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+ /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
 }
 .list-teamcard-name {
 font-weight: 500;
@@ -224,3 +229,12 @@ color: var(--navy-blue);
     letter-spacing: 0.02em;
     color: var(--cloud);
 }
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
